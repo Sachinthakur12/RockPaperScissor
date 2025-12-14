@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game by Shiva Raghav</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="msgg-container hide">
+      <div id="msgg">
+       Winner</div>
+      <button id="new-btn"><img id="new" src="https://github.com/RaghavShiva/rockpaperscissors/blob/main/restart.png?raw=true"></button>
+    </div>
+    <main>
+    <div class="start">
+      
+        <img id="rps" src="https://github.com/RaghavShiva/rockpaperscissors/blob/main/poster.jpg?raw=true">
+  
+      <div class="ch">
+        <div class="choice_s" id="5">Best of 5</div>
+        <div class="choice_s" id="7">Best of 7</div>
+        <div class="choice_s" id="0">Unlimited</div>
+      </div>
+    </div>
+  </main>
+    <div class="game hide">
+      <h1>
+        Rock Paper Scissors
+      </h1>
+        <div class="choices">
+         <div class="choice" id="rock">
+          <img class="game_img" src="https://github.com/RaghavShiva/rockpaperscissors/blob/main/rock.png?raw=true" />
+         </div>
+         <div class="choice" id="paper">
+          <img class="game_img" src="https://github.com/RaghavShiva/rockpaperscissors/blob/main/paper.png?raw=true" />
+         </div>
+         <div class="choice" id="scissors">
+          <img class="game_img" src="https://github.com/RaghavShiva/rockpaperscissors/blob/main/scissors.png?raw=true" />
+         </div>
+        </div>
+
+        <div class="score-board">
+         <div class="score">
+           <p id="user-score">0</p>
+             <p>You</p>
+          </div>
+          <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+          </div>
+        </div>
+        <div class="msg-container">
+         <p id="msg">Play your move</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
